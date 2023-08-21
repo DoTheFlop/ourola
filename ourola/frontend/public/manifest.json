@@ -1,0 +1,25 @@
+{
+  "short_name": "Ourola",
+  "name": "Ourola",
+  "icons": [
+    {
+      "src": "ourola_logo",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "ourola_logo",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "ourola_logo",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

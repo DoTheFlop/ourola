@@ -1,0 +1,19 @@
+.menuItem {
+  text-align: center;
+}
+
+.menuBtn {
+  border: none;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.menuTitle {
+  margin-top: 12px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}

@@ -1,0 +1,280 @@
+.navbar {
+    z-index: 999;
+    background-color:white;
+    height: 80px;
+    width: 100%;
+    /* margin-top: -1px; */
+    font-size: 1.2rem;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    max-width: 1500px;
+  }
+
+  .navbarUtilContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    max-width: 1500px;
+  }
+  
+  .navbarLogo {
+    color: black;
+    justify-self: start;
+    margin-left: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-weight: 900;
+  }
+  
+  .navMenu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+  .navItem {
+    height: 80px;
+  }
+  
+  .navLinks {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    height: 100%;
+  }
+  
+  .navLinks:hover {
+    border-bottom: 4px solid #fff;
+    transition: all 0.2s ease-out;
+  }
+  
+  .faBars {
+    color: #fff;
+  }
+  
+  .navLinksMobile {
+    display: none;
+  }
+  
+  .menuIcon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .navbarItems {
+      position: relative;
+    }
+  
+    .navMenu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 90vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .navMenu.active {
+      background: #242222;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .navLinks {
+      text-align: center;
+      padding: 2rem;
+      width: 100%;
+      display: table;
+    }
+  
+    .navLinks:hover {
+      background-color: #fff;
+      color: #242424;
+      border-radius: 0;
+    }
+  
+    .navbarLogo {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menuIcon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .faTimes {
+      color: #fff;
+      font-size: 2rem;
+    }
+  
+    .navLinksMobile {
+      display: block;
+      text-align: center;
+      margin: 2rem auto;
+      border-radius: 4px;
+      width: 80%;
+      text-decoration: none;
+      font-size: 1.5rem;
+      background-color: transparent;
+      color: #fff;
+      padding: 14px 20px;
+      border: 1px solid #fff;
+      transition: all 0.3s ease-out;
+    }
+  
+    .navLinksMobile:hover {
+      background: #fff;
+      color: #242424;
+      transition: 250ms;
+    }
+  }
+
+    .mainLogo {
+      height: 100px;
+    }
+
+
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+    
+    .buttons {
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: -2%;
+        font-size: 18.5px;
+        font-weight: 700;
+    }
+    
+    .btnHover {
+        width: 100px;
+        cursor: pointer;
+        margin: 10px;
+        height: 55px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        background-color: white;
+    
+        /* border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:focus {
+        outline: none;
+    }
+
+    .btn-hover.color-3 {
+      background-image: linear-gradient(to right, #BFD8EE, #7B68EE, #6B8DD6, #7B68EE); */
+  }
+
+.searchbarButton {
+  display: flex;
+  position: absolute;
+  height: 25px;
+  top: 8px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.searchbar {
+  position: relative;
+  background-color: #E2E5E7;
+  height: 45px;
+  width: 250px;
+  border: none;
+  border-radius: 15px;
+  /* margin-top: 10px; */
+}
+
+input::placeholder {
+  color: white;
+}
+
+.searchbarInput {
+  background-color: #E2E5E7;
+  margin-top: 9px;
+  height: 30px;
+  font-size: large;
+  font-weight: 800;
+  border: none;
+  outline: none;
+  width: 70%;
+}
+
+.headerSpacer {
+  width: 310px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.authButton {
+  border: none;
+  height: 35px;
+  border-radius: 10px;
+  background-color:transparent;
+  margin-right: 10px;
+  font-size: large;
+  width: 100px;
+  vertical-align: center;
+  cursor: pointer;
+}
+.buttons > a {
+  padding-top: 7px;
+}
+
+.authButton:hover {
+  background-color: #D2CDF0;
+}

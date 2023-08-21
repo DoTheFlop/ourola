@@ -1,0 +1,14 @@
+#liveVideoMain {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#liveVideoHeader {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 150px;
+  text-align: center;
+}

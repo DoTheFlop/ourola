@@ -1,0 +1,19 @@
+#onlineConcertVideoMain {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#onlineConcertVideoHeader {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 100px;
+  padding-right: 150px;
+  text-align: center;
+}
+
+.sessionBtnArea {
+  margin-left: auto;
+  padding-right: 50px;
+}

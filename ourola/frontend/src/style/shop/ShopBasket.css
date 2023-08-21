@@ -1,0 +1,84 @@
+.basketContentContainer {
+    position: absolute;
+    margin: 200px 100px;
+    padding-bottom: 50px;
+    width: 90%; 
+    height: 76vh; 
+    overflow-y: auto; 
+}
+
+.basketContent {
+    max-height: calc(100vh - 350px); 
+    overflow-y: auto; 
+    text-align: center;
+}
+
+.basketTotalPrice {
+    position: fixed;
+    bottom: 30px;
+    right: 100px;
+    font-size: 20px;
+    z-index: 10; 
+}
+
+.basketContentContainer > button {
+    position: fixed;
+    bottom: 40px; 
+    right: 100px;
+    z-index: 10;
+}
+
+.buyAllButton {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #7b68ee;
+    margin-bottom: 20px;
+}
+
+.shopBasketBackButton {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 158px 50px;
+}
+
+.shopBasketHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.shopBasketDeleteAllButton {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    position: absolute;
+    margin: 158px 50px;
+    background-color: #b5273c;
+    color: #fff;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+    cursor: pointer;
+}
+
+.shopBasketDeleteAllButton:hover {
+    background-color:  #800020;
+}
+
+.shopBasketDeleteAllButton:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(128, 0, 32, 0.5);
+}
+
+.noBasket {
+    font-size: 30px;
+    margin-top: 270px;
+}

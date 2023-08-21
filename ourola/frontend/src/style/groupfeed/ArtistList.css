@@ -1,0 +1,30 @@
+.artistList {
+  margin: 180px auto 20px;
+  min-width: 1102px;
+  position: relative;
+  transform: translate(0px);
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  will-change: transform;
+  z-index: 1;
+}
+
+.artistBoard {
+  display: flex;
+  user-select: none;
+  -webkit-user-drag: none;
+  touch-action: pan-y;
+  position: relative;
+}
+
+.prevButton,
+.nextButton {
+  margin-top: 25px;
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+}

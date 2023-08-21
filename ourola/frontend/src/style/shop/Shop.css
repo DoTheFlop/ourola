@@ -1,0 +1,48 @@
+.shopContentContainer {
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 30px;
+    width: 95%;
+}
+
+.shopBasketContainer {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    width: 100%;
+    justify-content: right;
+    margin-bottom: 50px;
+}
+
+.shopBasketIcon {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.shopMainHeader { 
+   display: flex;
+   justify-content: flex-end;
+   margin: 0px 40px;
+}
+
+.shopItemsContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.openCreateButton {
+    margin-right: 1400px;
+}
+
+.basketCount {
+    width: 35px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

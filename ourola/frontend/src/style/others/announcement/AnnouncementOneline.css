@@ -1,0 +1,39 @@
+.announcementOneline {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.oneLineAnnouncement {
+  font-size: 25px;
+  border-radius: 30px;
+  border: solid 3px #b9afed;
+  display: flex;
+  min-width: 900px;
+  min-height: 70px;
+  align-items: center;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.oneLineAnnouncementIconContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.announcementIcon {
+  height: 35px;
+}
+
+.oneLineAnnouncementContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+}
+
+.onelineAnnouncementContainer a {
+  cursor: default;
+}

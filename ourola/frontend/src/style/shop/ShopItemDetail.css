@@ -1,0 +1,115 @@
+.shopDetailContentContainer {
+    position: absolute;
+    margin-top: 185px;
+    width: 95%;
+}
+
+.shopDetailBasketContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: -15px;
+}
+
+.shopDetailBasketButton {
+    display: flex;
+    align-items: center;
+}
+
+.shopDetailBasketIcon {
+    height: 50px;
+    width: 50px;                                   
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.shopDetailToListButton {
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.shopDetailMaininfoImgContainer {
+    display: flex;
+    margin: 100px;
+    max-width: 707px;
+
+    justify-content: center;
+}
+
+.shopDetailMaininfoImgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    max-height: 100%;
+}
+
+.verticalLine {
+    border-right: 4px solid black;
+    height: 90%;
+    flex-grow: 1;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.shopDetailMaininfo {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+.detailPrice {
+    text-align: right;
+}
+
+.detailBuy {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.detailBuyButton {
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #7b68ee;
+    margin-left: 15px;
+}
+
+.shopDetailPurchaseContainer {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+.detailContentInfo {
+    font-size: 22px;
+    height: 70%;
+    white-space: pre-line;
+}
+
+.shopDetailInfoContainer {
+    width: 100%;
+}
+
+.shopDetailPurchaseContainer {
+    display: flex;
+    justify-content: center;
+    width: 30%;
+}
+
+.shopDetailSpacer {
+    flex-grow: 1;
+}
