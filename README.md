@@ -262,11 +262,11 @@ webRTC - 웹 브라우저가 서로 통신할 수 있도록 설계된 API로 웹
 │ │ │ │ │ └──📁redis // 공개방송 신청 시 동시 신청 제어
 │ │ │ └──📁shop
 │ │
-│ └──📁config
-│ │ ├──📃SecurityConfig.java // Spring Security 설정
-│ │ └──📃WebsocketConfig.java // WebSocket 설정
-│
-└──📃OurolaApplication.java // 백엔드 기본 앱
+│ │ └──📁config
+│ │ │ ├──📃SecurityConfig.java // Spring Security 설정
+│ │ │ └──📃WebsocketConfig.java // WebSocket 설정
+│ │
+│ │ └──📃OurolaApplication.java // 백엔드 기본 앱
 
 // 각 파일엔 Controller, Service, Repository 존재
 ```
