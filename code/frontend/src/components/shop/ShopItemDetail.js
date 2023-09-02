@@ -75,7 +75,7 @@ const ShopItemDetail = ( ) => {
                 <div className = "shopDetailMaininfo">
                     <div className="shopDetailSpacer"></div>
                     <div className = "shopDetailMaininfoImgContainer">
-                        <img className = "shopDetailMaininfoImg" src={`https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/${path.src}`}/>
+                        <img className = "shopDetailMaininfoImg" src={`https://localhost:8000/file/getimg/shop-main/${path.src}`}/>
                     </div>
                     <div className="verticalLine"></div>
                     <div className="shopDetailPurchaseContainer">

@@ -27,7 +27,7 @@ const PurchaseItem = ({ item }) => {
       setTitle(item.onlineConcertDto.title);
       setType(ENUM.ONLINECONCERT);
       setAccessImg(
-        "https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/" +
+        "https://localhost:8000/file/getimg/shop-main/" +
           item.onlineConcertDto.filePath
       );
       setExpiration(
@@ -39,7 +39,7 @@ const PurchaseItem = ({ item }) => {
       setTitle(item.membershipPayDto.title);
       setType(ENUM.MEMBERSHIP);
       setAccessImg(
-        "https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/" +
+        "https://localhost:8000/file/getimg/shop-main/" +
           item.membershipPayDto.filePath
       );
       let tmp = new Date(item.paymentDate);

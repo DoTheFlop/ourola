@@ -10,7 +10,7 @@ const OnlineConcertItem = ({ group, concertInfo }) => {
 
   const path = `/${group}/media/online-concert/enter`;
   const fileUrl =
-    "https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/" +
+    "https://localhost:8000/file/getimg/shop-main/" +
     concertInfo.filePath;
 
   const accessToken = sessionStorage.getItem("Authorization");

@@ -12,7 +12,7 @@ import notlikeclick from "../../assets/icons/notlike.png";
 const ArtistFeedDetail = (props) => {
   const setModalOpen = props.state.setModalOpen;
 
-  const localHost = "http://localhost:8000";
+  const localHost = "http://localhost:8000/";
 
   const closeModal = () => {
     setModalOpen(false);
@@ -242,7 +242,7 @@ const ArtistFeedDetail = (props) => {
                         files.map((file, index) => (
                           <img
                             key={index}
-                            src={`https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/${file.filePath}`}
+                            src={`https://localhost:8000/file/getimg/feed-img/${file.filePath}`}
                             alt={`File ${index}`}
                           />
                         ))}

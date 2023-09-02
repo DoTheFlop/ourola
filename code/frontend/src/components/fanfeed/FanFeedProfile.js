@@ -17,7 +17,7 @@ function FanFeedProfile({ groupInfo, userInfo }) {
           <div className="fanFeedProfileGroupContainer">
             <img
               className="fanFeedProfileGroupImg"
-              src={`https://i9d204.p.ssafy.io:8001/file/getimg/group-img/${groupInfo[0]?.filePath}`}
+              src={`https://localhost:8000/file/getimg/group-img/${groupInfo[0]?.filePath}`}
               alt="ff"
             />
             <div className="fanFeedProfileGroupNamespace">
@@ -30,13 +30,13 @@ function FanFeedProfile({ groupInfo, userInfo }) {
               {userInfo?.profileFileDto ? (
                 <img
                   className="fanFeedProfileUserImg"
-                  src={`https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=${userInfo?.profileFileDto.id}`}
+                  src={`https://localhost:8000/file/getimg/profile?id=${userInfo?.profileFileDto.id}`}
                   alt="ff"
                 />
               ) : (
                 <img
                   className="fanFeedProfileUserImg"
-                  src={`https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=1`}
+                  src={`https://localhost:8000/file/getimg/profile?id=1`}
                   alt="ff"
                 />
               )}

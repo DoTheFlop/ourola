@@ -37,9 +37,9 @@ class App extends React.Component {
                 ...prevState.params,
                 item_name: itemName,
                 total_amount: totalPrice,
-                approval_url: `http://i9d204.p.ssafy.io/purchase/success?group=${group}`,
-                fail_url: `http://i9d204.p.ssafy.io/purchase/failed?group=${group}`,
-                cancel_url: `http://i9d204.p.ssafy.io/${group}/shop`,
+                approval_url: `http://localhost:8000/purchase/success?group=${group}`,
+                fail_url: `http://localhost:8000/purchase/failed?group=${group}`,
+                cancel_url: `http://localhost:8000/${group}/shop`,
             }
         }), () => {
             // setState가 완료된 후 axios 요청을 실행
@@ -59,7 +59,7 @@ class App extends React.Component {
       url: "https://kapi.kakao.com/v1/payment/ready",
       method: "POST",
       headers: {
-        Authorization: "KakaoAK 6d6aecede153720aceb34e311a35889d",
+        Authorization: "KakaoAK {insert your key}",
         "Content-type": "application/x-www-form-urlencoded;charset=utf-8",
       },
       data: params,

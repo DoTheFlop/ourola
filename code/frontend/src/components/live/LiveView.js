@@ -13,7 +13,7 @@ const LiveView = () => {
   const APPLICATION_SERVER_URL =
     process.env.NODE_ENV === "production"
       ? ""
-      : `https://i9d204.p.ssafy.io:8001/${group}/live`;
+      : `https://localhost:8000/${group}/live`;
 
   const location = useLocation();
   const navigate = useNavigate();

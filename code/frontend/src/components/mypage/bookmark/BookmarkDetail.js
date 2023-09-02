@@ -130,12 +130,12 @@ const BookmarkDetail = ({
   if (!feed.fanDto) {
     userInfo = feed.artistDto;
     accessImg =
-      "https://i9d204.p.ssafy.io:8001/file/getimg/artist-profile?id=" +
+      "https://localhost:8000/file/getimg/artist-profile?id=" +
       feed.artistDto.id;
   } else {
     userInfo = feed.fanDto;
     accessImg =
-      "https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=" +
+      "https://localhost:8000/file/getimg/profile?id=" +
       feed.fanDto.profileFileDto.id;
   }
 
@@ -313,7 +313,7 @@ const BookmarkDetail = ({
                           <img
                             className="feedImg"
                             key={index}
-                            src={`https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/${file.filePath}`}
+                            src={`https://localhost:8000/file/getimg/feed-img/${file.filePath}`}
                             alt={`File ${index}`}
                           />
                         ))}

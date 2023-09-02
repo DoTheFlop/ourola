@@ -116,7 +116,7 @@ const Group = () => {
           />
           <div className="onelineAnnouncementContainer">
             <Link
-              to={"https://i9d204.p.ssafy.io/" + group + "/others/announcement"}
+              to={"https://localhost:8000/" + group + "/others/announcement"}
             >
               <AnnouncementOneline group={group} />
             </Link>

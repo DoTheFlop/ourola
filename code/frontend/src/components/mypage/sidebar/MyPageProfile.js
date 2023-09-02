@@ -2,7 +2,7 @@ import moment from "moment";
 import "../../../style/mypage/sidebar/MyPageProfile.css";
 const MyPageProfile = ({ profileId, nickName, registDate }) => {
   const url =
-    `https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=` + profileId;
+    `https://localhost:8000/file/getimg/profile?id=` + profileId;
 
   //console.log(profileId);
   registDate = moment(new Date(registDate)).format("YYYY.MM.DD");

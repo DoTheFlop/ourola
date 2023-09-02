@@ -28,9 +28,9 @@ const ArtistFeedItem = ({
   artistNick,
 }) => {
   const accessImg =
-    "https://i9d204.p.ssafy.io:8001/file/getimg/artist-profile?id=" + artistId;
+    "https://localhost:8000/file/getimg/artist-profile?id=" + artistId;
 
-  const localHost = "http://localhost:8000";
+  const localHost = "http://localhost:8000/";
   let getDate = createDate.split("T", 2);
   getDate[1] = getDate[1].split(".", 1);
 
@@ -283,7 +283,7 @@ const ArtistFeedItem = ({
               files?.map((file, index) => (
                 <img
                   key={index}
-                  src={`https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/${file?.filePath}`}
+                  src={`https://localhost:8000/file/getimg/feed-img/${file?.filePath}`}
                   alt={`File ${index}`}
                 />
               ))}

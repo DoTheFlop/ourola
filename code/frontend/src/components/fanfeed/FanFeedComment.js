@@ -12,7 +12,7 @@ const ArtistFeedComment = ({
   createDate,
   content,
 }) => {
-  let accessImg = "https://i9d204.p.ssafy.io:8001/file/getimg";
+  let accessImg = "https://localhost:8000/file/getimg";
   let name = "";
   let email = "";
 

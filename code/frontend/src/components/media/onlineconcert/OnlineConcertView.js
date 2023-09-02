@@ -13,7 +13,7 @@ const OnlineConcertView = () => {
   const APPLICATION_SERVER_URL =
     process.env.NODE_ENV === "production"
       ? ""
-      : `https://i9d204.p.ssafy.io:8001/${group}/online-concert`;
+      : `https://localhost:8000/${group}/online-concert`;
 
   const location = useLocation();
   const navigate = useNavigate();

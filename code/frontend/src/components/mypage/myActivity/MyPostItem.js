@@ -85,9 +85,9 @@ const MyPostItem = ({ setPostList, item, config }) => {
 
   const content = item.content;
   const fileList = item.fileList;
-  const fileUrl = "https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/";
+  const fileUrl = "https://localhost:8000/file/getimg/feed-img/";
 
-  const profileUrl = "https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=";
+  const profileUrl = "https://localhost:8000/file/getimg/profile?id=";
   const profileImg =
     type === FAN
       ? profileUrl + item.fanDto.profileFileDto.id

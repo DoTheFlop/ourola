@@ -45,7 +45,7 @@ const OpenLiveItem = ({
 
   // 나중에 실제 사진으로 수정 필요
   const accessImg =
-    "https://i9d204.p.ssafy.io:8001/file/getimg/open-live/" + imgFilePath;
+    "https://localhost:8000/file/getimg/open-live/" + imgFilePath;
   const startDateParts = startDate.split("T");
   const datePart = startDateParts[0];
 

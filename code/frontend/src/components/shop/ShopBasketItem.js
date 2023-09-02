@@ -49,8 +49,8 @@ const ShopBasketItem = ({ stuffId, membershipPayDto, onlineConcertDto }) => {
     return (
         <div className="basketItemContainer">
             <div className="basketItemImage">
-                {membershipPayDto && <img src={`https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/${membershipPayDto.filePath}`} />}
-                {onlineConcertDto && <img src={`https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/${onlineConcertDto.filePath}`} />}
+                {membershipPayDto && <img src={`https://localhost:8000/file/getimg/shop-main/${membershipPayDto.filePath}`} />}
+                {onlineConcertDto && <img src={`https://localhost:8000/file/getimg/shop-main/${onlineConcertDto.filePath}`} />}
             </div>
             <div className="basketItemDetails">
                 <div className="basketItemDetailsMain">

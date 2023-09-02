@@ -16,9 +16,9 @@ const BookmarkItem = ({ setBookmarkList, item }) => {
     .format("YYYY.MM.DD HH:mm");
   const content = feed.content;
   const fileList = feed.fileList;
-  const fileUrl = "https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/";
+  const fileUrl = "https://localhost:8000/file/getimg/feed-img/";
 
-  const profileUrl = "https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=";
+  const profileUrl = "https://localhost:8000/file/getimg/profile?id=";
   const profileImg =
     type === FAN
       ? profileUrl + feed.fanDto.profileFileDto.id

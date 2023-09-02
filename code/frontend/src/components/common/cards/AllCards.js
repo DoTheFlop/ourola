@@ -11,7 +11,7 @@ function NewCards({ allGroup, showModal }) {
   return (
     <div className="cardsContainer">
       {allGroup.map((data, i) => (
-        <NoLoggedCard key={i} src={`https://i9d204.p.ssafy.io:8001/file/getimg/group-img/${data.filePath}`} text={data.name} showModal={showModal} />
+        <NoLoggedCard key={i} src={`https://localhost:8000/file/getimg/group-img/${data.filePath}`} text={data.name} showModal={showModal} />
       ))}
     </div>
   );

@@ -9,13 +9,13 @@ const FeedCreateModalProfile = ({userInfo, userRole}) => {
 
     // 일반 사용자 프로필 사진 가져오기
     const getFanPic = () => {
-      const getFanImg = "https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=" + userInfo.profileFileDto.id;
+      const getFanImg = "https://localhost:8000/file/getimg/profile?id=" + userInfo.profileFileDto.id;
       setProfileImg(getFanImg)
     }
   
     // 아티스트 또는 소속사 프로필 사진 가져오기
     const getArtistPic = () => {
-      const getArtistImg = "https://i9d204.p.ssafy.io:8001/file/getimg/artist-profile?id=" + userInfo.profileFileDto.id;
+      const getArtistImg = "https://localhost:8000/file/getimg/artist-profile?id=" + userInfo.profileFileDto.id;
       setProfileImg(getArtistImg)
     }
   
@@ -34,7 +34,7 @@ const FeedCreateModalProfile = ({userInfo, userRole}) => {
             <div className='feedCreateModalProfileUserImgContainer'>
               {userInfo.profileFileDto ? (
                 <img className="feedCreateModalProfileUserImg" src={profileImg}/>) :
-                (<img className="feedCreateModalProfileUserImg" src={`https://i9d204.p.ssafy.io:8001/file/getimg/profile?id=1`}/>)}
+                (<img className="feedCreateModalProfileUserImg" src={`https://localhost:8000/file/getimg/profile?id=1`}/>)}
             </div>
             <div className="feedCreateModalProfileUsername">
             {userInfo.nickname}

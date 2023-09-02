@@ -11,7 +11,7 @@ function NotFollowingCards({notSubGroup}) {
   return (
     <div className="cardsContainer">
       {notSubGroup.map((data, i) => (
-        <CardItem key={i} src={`https://i9d204.p.ssafy.io:8001/file/getimg/group-img/${data.filePath}`} text={data.name} path={data.name} />
+        <CardItem key={i} src={`https://localhost:8000/file/getimg/group-img/${data.filePath}`} text={data.name} path={data.name} />
       ))}
     </div>
   );

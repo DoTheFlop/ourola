@@ -12,7 +12,7 @@ const OnlineConcertEnter = () => {
   const config = location.state.config;
   const group = concertInfo.groupDto.name;
   const fileUrl =
-    "https://i9d204.p.ssafy.io:8001/file/getimg/shop-main/" +
+    "https://localhost:8000/file/getimg/shop-main/" +
     concertInfo.filePath;
 
   console.log(concertInfo);

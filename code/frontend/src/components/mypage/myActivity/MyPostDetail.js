@@ -12,7 +12,7 @@ import notlikeclick from "../../../assets/icons/notlike.png";
 const MyPostDetail = (props) => {
   const setModalOpen = props.state.setModalOpen;
 
-  const localHost = "http://localhost:8000";
+  const localHost = "http://localhost:8000/";
 
   const closeModal = () => {
     setModalOpen(false);
@@ -239,7 +239,7 @@ const MyPostDetail = (props) => {
                           <img
                             className="feedImg"
                             key={index}
-                            src={`https://i9d204.p.ssafy.io:8001/file/getimg/feed-img/${file.filePath}`}
+                            src={`https://localhost:8000/file/getimg/feed-img/${file.filePath}`}
                             alt={`File ${index}`}
                           />
                         ))}

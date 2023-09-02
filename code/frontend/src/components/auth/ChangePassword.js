@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from '../../style/auth/loginmodal.module.css';
 import axios from 'axios';
-// axios.defaults.baseURL = "http://localhost:8000";
+// axios.defaults.baseURL = "http://localhost:8000/";
 
 const ChangePassword = ({ onClose }) => {
     const navigate = useNavigate();

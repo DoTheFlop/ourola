@@ -20,7 +20,7 @@ const FanSignView = () => {
   const APPLICATION_SERVER_URL =
     process.env.NODE_ENV === "production"
       ? ""
-      : `https://i9d204.p.ssafy.io:8001/${group}/onlinecall`;
+      : `https://localhost:8000/${group}/onlinecall`;
 
   const location = useLocation();
 
