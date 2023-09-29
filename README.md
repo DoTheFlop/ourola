@@ -102,7 +102,7 @@
 ### 6. 상품 구매
 
 ```markdown
-## 실시간 화상 통화 시스템 - openvidu
+<span style="color:blue;">실시간 화상 통화 시스템 - openvidu</span>
 
 아티스트 라이브 방송, 영상통화 팬싸인회, 온라인 콘서트 기능에 적용된 기술이다.
 
