@@ -35,6 +35,7 @@
 
 ![Untitled](img/Untitled%202.png)
 
+
 # 🎤기획
 
 ## 와이어프레임
@@ -85,6 +86,7 @@
 
 ![Untitled](img/Untitled%2011.png)
 
+
 # 🎤주요기능
 
 ### 1. 포스트 작성, 댓글 작성, 좋아요, 북마크
@@ -111,6 +113,7 @@ kurento - 웹/모바일 환경에서 비디오 애플리케이션을 개발할 �
 webRTC - 웹 브라우저가 서로 통신할 수 있도록 설계된 API로 웹 브라우저 상에서는 다른 플러그인 없이 음성 채팅과 화상 채팅, 데이터 교환을 지원한다.
 ```
 
+
 # 🎤기술스택
 
 ![Untitled](img/Untitled%2012.png)
@@ -126,6 +129,7 @@ webRTC - 웹 브라우저가 서로 통신할 수 있도록 설계된 API로 웹
 | Backend  | Redis       | 7.0.12  |
 | Backend  | Spring Boot | 2.7.13  |
 
+
 # 🎤개발환경
 
 [GIT Flow 전략](https://www.notion.so/GIT-Flow-5258aec9c7074545bba98d4dc8f77f13?pvs=21)
@@ -139,6 +143,7 @@ webRTC - 웹 브라우저가 서로 통신할 수 있도록 설계된 API로 웹
 [[BE] CSR 관련 컨벤션](https://www.notion.so/BE-CSR-c64c7dddbc7d4c3d91193a102ffdb503?pvs=21)
 
 [[FE] 코드 컨벤션](https://www.notion.so/FE-fc65e17ad4a5468881146cff7c4b5410?pvs=21)
+
 
 # 🎤서비스구조
 
@@ -272,6 +277,7 @@ webRTC - 웹 브라우저가 서로 통신할 수 있도록 설계된 API로 웹
 // 각 파일엔 Controller, Service, Repository 존재
 ```
 
+
 # 🎤시작하기
 
 ### 프로젝트 설치
@@ -301,6 +307,7 @@ $ sudo java -jar /build/libs/ourola-0.0.1-SNAPSHOT.jar
 ## DB
 
 exec 폴더 안 Ourola DB Dump 파일 실행
+
 
 # 👩‍🎤만든사람들
 
